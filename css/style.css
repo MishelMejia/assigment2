@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #2f3e46; /* Dark nostalgic background */
+    color: #d3d3d3; /* Light gray text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3a4750; /* A darker and more sober tone for the header */
+    color: #d3d3d3; /* Light text for contrast */
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #495464; /* A more muted tone on hover */
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+/* Hero Image */
+.hero {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.hero-img:hover {
+    transform: scale(1.05);
+}
+
+/* Lyrics Section */
+.lyrics-container {
+    margin: 40px auto;
+    max-width: 800px;
+    background-color: #3a4750; /* Background for the lyrics in dark gray */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.lyrics-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.lyrics-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #d3d3d3; /* Light text to stand out against the dark background */
+    transition: color 0.3s ease;
+}
+
+.lyrics-container p:hover {
+    color: #c9c9c9; /* A lighter tone when hovering */
+}
+
+.chorus {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+    color: #d3d3d3;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.chorus:hover {
+    color: #c9c9c9;
+}
+
+/* Image Styling for Lyrics */
+.lyrics-img {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lyrics-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #a0a0a0; /* More muted gray text */
+    margin-top: 40px;
+    background-color: #2f3e46; /* Footer background consistent with body background */
+    transition: background-color 0.3s ease;
+}
+
+.footer:hover {
+    background-color: #495464;
+}
